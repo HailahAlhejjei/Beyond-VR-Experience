@@ -6,7 +6,7 @@
 
 [English](#english) · [العربية](#arabic) · [How to Run](HOW_TO_RUN.md) · [▶ Trailer](media/video/beyond-trailer.mp4)
 
-> Content notice (from the in-game menu): the experience contains themes of death, suicide, grief, firearm violence, and family conflict.
+> Content notice: the experience contains themes of death, suicide, grief, firearm violence, and family conflict.
 
 ---
 
