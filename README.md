@@ -20,15 +20,16 @@
 
 ## Overview
 
-Beyond was our VR final project at Tuwaiq Academy, built by a five-person team. The story opens on a funeral ("3 Days Earlier - The Funeral"), moves through a murder cutscene, and then puts the player in the investigator's role: interrogate two suspects (Maya and a loan shark, Carlos), then search the crime scene, handle evidence, and decide who did it.
+Beyond was our VR final project at Tuwaiq Academy, built by a five-person team. The story opens on a funeral ("3 Days Earlier - The Funeral") and then puts the player in the investigator's role: interrogate two suspects (Maya and a loan shark, Carlos), then search the crime scene and handle evidence. Finding the key evidence unlocks the murder cutscene, and the player decides who did it.
 
 ## Experience Flow
 
 1. **Main menu**: Begin Investigation, Case Briefing, Investigation Guide, Credits.
-2. **Funeral & cutscenes**: scripted character animation and cinematic transitions.
+2. **Funeral**: scripted character animation and cinematic transitions.
 3. **Interrogation room**: question both suspects by voice; an investigation report is generated from the interview transcripts.
 4. **Crime scene (storm night)**: pick up and examine evidence, place it on the evidence table, and reveal hidden traces with a UV flashlight, all under a 2-minute countdown.
-5. **The phone call**: when the timer ends, an old phone rings. Pick it up, hear "So who did it?", and **say your answer out loud**.
+5. **Murder cutscene**: plays once the player finds the key evidence.
+6. **The phone call**: when the timer ends, an old phone rings. Pick it up, hear "So who did it?", and **say your answer out loud**.
 
 ## Technical Highlights
 
@@ -95,7 +96,7 @@ HOW_TO_RUN.md        requirements, setup, controls
 [▶ مشاهدة العرض (40 ثانية)](media/video/beyond-trailer.mp4)
 
 ### مسار التجربة
-القائمة الرئيسية ← مشهد الجنازة والمشاهد السينمائية ← غرفة الاستجواب وتقرير التحقيق ← مسرح الجريمة في ليلة عاصفة (فحص الأدلة، الكشاف فوق البنفسجي، مؤقّت دقيقتين) ← رنين الهاتف والإجابة بالصوت.
+القائمة الرئيسية ← مشهد الجنازة ← غرفة الاستجواب وتقرير التحقيق ← مسرح الجريمة في ليلة عاصفة (فحص الأدلة، الكشاف فوق البنفسجي، مؤقّت دقيقتين) ← مشهد الجريمة بعد العثور على الدليل الأساسي ← رنين الهاتف والإجابة بالصوت.
 
 ### أبرز الجوانب التقنية
 - **مكالمة هاتفية تُجاب بالصوت** عبر Meta Voice SDK (Wit.ai) مع مراعاة اختلاف النطق.
