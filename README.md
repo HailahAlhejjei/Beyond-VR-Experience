@@ -60,10 +60,16 @@ The scripts I wrote are in [`scripts/`](scripts/).
 
 | | |
 |---|---|
-| ![Title card](media/ui/title-card-the-funeral.png) | ![Phone ringing](media/screenshots/phone-ringing.jpg) |
-| Opening title card | Timer hits 0:00 and the phone rings |
-| ![Waiting room](media/screenshots/waiting-room-npc.png) | ![Interrogation room](media/screenshots/interrogation-room-lighting.png) |
-| Waiting room NPC | Interrogation room |
+| ![Interrogating Maya](media/screenshots/interrogation-suspect-maya.jpg) | ![Voice recorder](media/screenshots/voice-recorder-push-to-talk.jpg) |
+| Interrogation room: suspect Maya | Push-to-talk voice recorder ("Hold A") |
+| ![Case files](media/screenshots/hands-case-files.jpg) | ![UV flashlight](media/screenshots/uv-flashlight.jpg) |
+| Hand interaction with the case files | UV flashlight revealing footprints |
+| ![Countdown](media/screenshots/countdown-sticky-note.jpg) | ![Phone ringing](media/screenshots/phone-ringing.jpg) |
+| Crime scene: countdown and clues | Timer hits 0:00 and the phone rings |
+| ![Final assessment](media/screenshots/final-assessment.jpg) | |
+| Final assessment | |
+
+*All screenshots are taken from the trailer.*
 
 ## Team
 
@@ -75,8 +81,8 @@ This is a **portfolio showcase**. The full Unity project (about 7.5 GB, includin
 
 ```
 media/video/         trailer
-media/ui/            menu and title-card art
-media/screenshots/   in-engine captures
+media/ui/            main menu art
+media/screenshots/   frames from the trailer
 scripts/             C# scripts I authored (Editor/ = editor/build tooling)
 HOW_TO_RUN.md        requirements, setup, controls
 ```
