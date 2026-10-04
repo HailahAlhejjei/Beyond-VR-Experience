@@ -66,8 +66,8 @@ The scripts I wrote are in [`scripts/`](scripts/).
 | Hand interaction with the case files | UV flashlight revealing footprints |
 | ![Countdown](media/screenshots/countdown-sticky-note.jpg) | ![Phone ringing](media/screenshots/phone-ringing.jpg) |
 | Crime scene: countdown and clues | Timer hits 0:00 and the phone rings |
-| ![Final assessment](media/screenshots/final-assessment.jpg) | |
-| Final assessment | |
+| ![Evidence documents](media/screenshots/evidence-documents.jpg) | ![Final assessment](media/screenshots/final-assessment.jpg) |
+| Examining evidence: final notices and bills | Final assessment |
 
 *All screenshots are taken from the trailer.*
 
