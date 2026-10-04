@@ -1,0 +1,103 @@
+# Beyond — VR Experience
+
+**Case 017: Investigation Simulation.** A story-driven VR detective experience for Meta Quest, built in Unity. The player examines evidence at a crime scene, questions AI-driven suspects by voice, and answers a phone call by saying the name of the person they suspect.
+
+![Beyond: Case 017 main menu](media/ui/main-menu-case-017.png)
+
+[English](#english) · [العربية](#arabic) · [How to Run](HOW_TO_RUN.md)
+
+> Content notice (from the in-game menu): the experience contains themes of death, suicide, grief, firearm violence, and family conflict.
+
+---
+
+<a id="english"></a>
+
+## Overview
+
+Beyond was our VR final project, built by a five-person team. The story opens on a funeral ("3 Days Earlier — The Funeral"), moves through a murder cutscene, and then puts the player in the investigator's role: search the scene, handle evidence, interrogate two suspects (Maya and a loan shark, Carlos), and decide who did it.
+
+## Experience Flow
+
+1. **Main menu**: Begin Investigation, Case Briefing, Investigation Guide, Credits.
+2. **Funeral & cutscenes**: scripted character animation and cinematic transitions.
+3. **Crime scene (storm night)**: pick up and examine evidence, place it on the evidence table, reveal hidden traces with a UV flashlight, under a 2-minute countdown.
+4. **The phone call**: when the timer ends, an old phone rings. Pick it up, hear "So who did it?", and **say your answer out loud**.
+5. **Interrogation room**: question both suspects by voice; an investigation report is generated from the interview transcripts.
+
+## Technical Highlights
+
+- **Voice-answered phone call (Meta Voice SDK / Wit.ai)**: speech-to-text recognises the player's spoken answer. Each suspect has a list of alternative transcriptions so that accents and mis-hearings still resolve to the right person. Requests microphone permission on Quest. A UI fallback is included.
+- **AI suspects (Convai)**: conversational NPCs answer the player's spoken questions, with push-to-talk via a grabbable recorder or a key.
+- **Transcript → AI report**: every committed conversation turn is captured per suspect. After both interrogations, the transcripts are sent to the OpenAI Responses API to produce the end-of-investigation report.
+- **Storm & lightning system**: randomised lightning strikes in defined outdoor zones, with procedural jagged bolts (`LineRenderer`), a URP Volume flash, a light-intensity spike, and thunder delayed after each flash.
+- **Atmosphere with URP Global Volumes**: a "Rainy Dark Day" volume profile, a lightning-flash volume, rain and ambient room audio (AC and hallway hum).
+- **XR Interaction Toolkit**: grabbable evidence, custom `XRSocketInteractor` evidence sockets with ghost previews, a UV forensic flashlight that fades in hidden footprints and marks only while the beam hits them, and glow highlights on key evidence.
+- **Stage-driven story flow**: state machines chain timers, cutscenes, subtitles, scene transitions with fades, and hints.
+
+## Tech Stack
+
+Unity **6000.3.19f1** · Universal Render Pipeline 17.3 · OpenXR 1.16 (Meta Quest Support, Oculus Touch controller profile) · XR Interaction Toolkit 3.3 · XR Hands 1.9 · Input System 1.19 · Meta Voice SDK 85 · Convai SDK 4.5 · OpenAI Responses API · Timeline · C#
+
+## My Contribution (Hailah Alhejjei)
+
+Based on my commits to the team repository:
+
+- **Crime-scene environment ("H" scene)**: environment build, skybox, scene optimisation for the Android/Quest build.
+- **Weather & lighting**: Global Volume profiles (rainy dark day, lightning flash), rain, thunder, and the `LightningStrikeController` lightning system.
+- **Phone call interaction**: `PhoneCallController` with Meta Voice SDK speech recognition, response audio, and the Quest microphone permission and manifest setup.
+- **Countdown & ambience**: digital clock countdown, persistent looping audio, mobile audio output guard.
+- **Scene transitions**: door fade loader and funeral-to-XR transition.
+
+The scripts I wrote are in [`scripts/`](scripts/).
+
+## Screenshots
+
+| | |
+|---|---|
+| ![Title card](media/ui/title-card-the-funeral.png) | ![Case files](media/screenshots/interrogation-room-case-files.png) |
+| Opening title card | Interrogation room: inspect the case files |
+| ![Evidence table](media/screenshots/vr-controllers-evidence-table.png) | ![Waiting room](media/screenshots/waiting-room-npc.png) |
+| VR controllers at the evidence table | Waiting room NPC |
+
+## Team
+
+Fahdah · Lulu · Fajr · Reena · Hailah (as credited on the in-game main menu)
+
+## Repository Contents
+
+This is a **portfolio showcase**. The full Unity project (about 7.5 GB, including licensed third-party assets) lives in the team's private repository. This repo contains the documentation, media, and my own scripts. See [HOW_TO_RUN.md](HOW_TO_RUN.md).
+
+```
+media/ui/            menu and title-card art
+media/screenshots/   in-engine captures
+scripts/             C# scripts I authored (Editor/ = editor/build tooling)
+HOW_TO_RUN.md        requirements, setup, controls
+```
+
+---
+
+<a id="arabic"></a>
+
+<div dir="rtl">
+
+## Beyond — تجربة واقع افتراضي
+
+**القضية 017: محاكاة تحقيق**. تجربة تحقيق جنائي قصصية بالواقع الافتراضي لنظارة Meta Quest، مبنية على Unity. يفحص اللاعب الأدلة في مسرح الجريمة، ويستجوب مشتبهين مدعومين بالذكاء الاصطناعي بصوته، ثم يجيب على مكالمة هاتفية بنطق اسم من يعتقد أنه الجاني.
+
+### مسار التجربة
+القائمة الرئيسية ← مشهد الجنازة والمشاهد السينمائية ← مسرح الجريمة في ليلة عاصفة (فحص الأدلة، الكشاف فوق البنفسجي، مؤقّت دقيقتين) ← رنين الهاتف والإجابة بالصوت ← غرفة الاستجواب وتقرير التحقيق.
+
+### أبرز الجوانب التقنية
+- **مكالمة هاتفية تُجاب بالصوت** عبر Meta Voice SDK (Wit.ai) مع مراعاة اختلاف النطق.
+- **مشتبهون بالذكاء الاصطناعي** عبر Convai يجيبون على أسئلة اللاعب الصوتية.
+- **تقرير تحقيق تلقائي** يُولَّد من نصوص الاستجواب عبر OpenAI.
+- **نظام عاصفة وبرق**: صواعق عشوائية، وميض عبر Global Volume، وصوت رعد متأخر.
+- **تفاعلات XR Interaction Toolkit**: التقاط الأدلة، ومقابس لوضعها، وكشاف UV يكشف الآثار المخفية.
+
+### مساهمتي (هيله الحجي)
+بناء بيئة مسرح الجريمة وتحسين أدائها على Quest، وإعداد الإضاءة والأجواء (Global Volume، المطر، الرعد، البرق)، وتطوير تفاعل المكالمة الهاتفية بالتعرّف على الصوت، والمؤقّت، والانتقالات بين المشاهد.
+
+### الفريق
+فهدة · لولو · فجر · رينا · هيله
+
+</div>

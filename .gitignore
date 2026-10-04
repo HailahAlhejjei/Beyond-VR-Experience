@@ -1,0 +1,6 @@
+.DS_Store
+Thumbs.db
+*.apk
+[Ll]ibrary/
+[Tt]emp/
+[Ll]ogs/
