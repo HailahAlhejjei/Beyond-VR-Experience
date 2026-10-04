@@ -60,14 +60,10 @@ The scripts I wrote are in [`scripts/`](scripts/).
 
 | | |
 |---|---|
-| ![Interrogating Maya](media/screenshots/interrogation-suspect-maya.jpg) | ![Voice recorder](media/screenshots/voice-recorder-push-to-talk.jpg) |
-| Interrogation room: suspect Maya | Push-to-talk voice recorder ("Hold A") |
-| ![Case files](media/screenshots/hands-case-files.jpg) | ![UV flashlight](media/screenshots/uv-flashlight.jpg) |
-| Hand interaction with the case files | UV flashlight revealing footprints |
-| ![Countdown](media/screenshots/countdown-sticky-note.jpg) | ![Phone ringing](media/screenshots/phone-ringing.jpg) |
-| Crime scene: countdown and clues | Timer hits 0:00 and the phone rings |
-| ![Evidence documents](media/screenshots/evidence-documents.jpg) | ![Final assessment](media/screenshots/final-assessment.jpg) |
-| Examining evidence: final notices and bills | Final assessment |
+| ![Interrogating Maya](media/screenshots/interrogation-suspect-maya.jpg) | ![UV flashlight](media/screenshots/uv-flashlight.jpg) |
+| Interrogation room: suspect Maya | Dark scene: UV flashlight revealing footprints |
+| ![Evidence documents](media/screenshots/evidence-documents.jpg) | ![Countdown](media/screenshots/countdown-sticky-note.jpg) |
+| Office desk: examining final notices and bills | Apartment crime scene: countdown and clues |
 
 *All screenshots are taken from the trailer.*
 
