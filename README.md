@@ -67,7 +67,7 @@ The scripts I wrote are in [`scripts/`](scripts/).
 
 ## Team
 
-Fahdah · Lulu · Fajr · Reena · Hailah (as credited on the in-game main menu)
+Fahdah · Lulu · Fajr · Reena · Hailah
 
 ## Repository Contents
 
