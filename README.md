@@ -4,13 +4,19 @@
 
 ![Beyond: Case 017 main menu](media/ui/main-menu-case-017.png)
 
-[English](#english) · [العربية](#arabic) · [How to Run](HOW_TO_RUN.md)
+[English](#english) · [العربية](#arabic) · [How to Run](HOW_TO_RUN.md) · [▶ Trailer](media/video/beyond-trailer.mp4)
 
 > Content notice (from the in-game menu): the experience contains themes of death, suicide, grief, firearm violence, and family conflict.
 
 ---
 
 <a id="english"></a>
+
+## Trailer
+
+[![Watch the Beyond trailer](media/screenshots/trailer-poster.jpg)](media/video/beyond-trailer.mp4)
+
+▶ **[Watch the trailer (40 s)](media/video/beyond-trailer.mp4)**
 
 ## Overview
 
@@ -56,8 +62,10 @@ The scripts I wrote are in [`scripts/`](scripts/).
 |---|---|
 | ![Title card](media/ui/title-card-the-funeral.png) | ![Case files](media/screenshots/interrogation-room-case-files.png) |
 | Opening title card | Interrogation room: inspect the case files |
-| ![Evidence table](media/screenshots/vr-controllers-evidence-table.png) | ![Waiting room](media/screenshots/waiting-room-npc.png) |
-| VR controllers at the evidence table | Waiting room NPC |
+| ![Phone ringing](media/screenshots/phone-ringing.jpg) | ![Evidence table](media/screenshots/vr-controllers-evidence-table.png) |
+| Timer hits 0:00 and the phone rings | VR controllers at the evidence table |
+| ![Waiting room](media/screenshots/waiting-room-npc.png) | |
+| Waiting room NPC | |
 
 ## Team
 
@@ -68,6 +76,7 @@ Fahdah · Lulu · Fajr · Reena · Hailah (as credited on the in-game main menu)
 This is a **portfolio showcase**. The full Unity project (about 7.5 GB, including licensed third-party assets) lives in the team's private repository. This repo contains the documentation, media, and my own scripts. See [HOW_TO_RUN.md](HOW_TO_RUN.md).
 
 ```
+media/video/         trailer
 media/ui/            menu and title-card art
 media/screenshots/   in-engine captures
 scripts/             C# scripts I authored (Editor/ = editor/build tooling)
@@ -83,6 +92,9 @@ HOW_TO_RUN.md        requirements, setup, controls
 ## Beyond — تجربة واقع افتراضي
 
 **القضية 017: محاكاة تحقيق**. تجربة تحقيق جنائي قصصية بالواقع الافتراضي لنظارة Meta Quest، مبنية على Unity. يفحص اللاعب الأدلة في مسرح الجريمة، ويستجوب مشتبهين مدعومين بالذكاء الاصطناعي بصوته، ثم يجيب على مكالمة هاتفية بنطق اسم من يعتقد أنه الجاني.
+
+### العرض التشويقي
+[▶ مشاهدة العرض (40 ثانية)](media/video/beyond-trailer.mp4)
 
 ### مسار التجربة
 القائمة الرئيسية ← مشهد الجنازة والمشاهد السينمائية ← مسرح الجريمة في ليلة عاصفة (فحص الأدلة، الكشاف فوق البنفسجي، مؤقّت دقيقتين) ← رنين الهاتف والإجابة بالصوت ← غرفة الاستجواب وتقرير التحقيق.
