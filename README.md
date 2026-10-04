@@ -65,8 +65,6 @@ The scripts I wrote are in [`scripts/`](scripts/).
 | ![Evidence documents](media/screenshots/evidence-documents.jpg) | ![Countdown](media/screenshots/countdown-sticky-note.jpg) |
 | Office desk: examining final notices and bills | Apartment crime scene: countdown and clues |
 
-*All screenshots are taken from the trailer.*
-
 ## Team
 
 Fahdah · Lulu · Fajr · Reena · Hailah (as credited on the in-game main menu)
