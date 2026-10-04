@@ -20,7 +20,7 @@
 
 ## Overview
 
-Beyond was our VR final project, built by a five-person team. The story opens on a funeral ("3 Days Earlier — The Funeral"), moves through a murder cutscene, and then puts the player in the investigator's role: interrogate two suspects (Maya and a loan shark, Carlos), then search the crime scene, handle evidence, and decide who did it.
+Beyond was our VR final project at Tuwaiq Academy, built by a five-person team. The story opens on a funeral ("3 Days Earlier — The Funeral"), moves through a murder cutscene, and then puts the player in the investigator's role: interrogate two suspects (Maya and a loan shark, Carlos), then search the crime scene, handle evidence, and decide who did it.
 
 ## Experience Flow
 
