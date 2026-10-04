@@ -1,4 +1,4 @@
-# Beyond — VR Experience
+# Beyond - VR Experience
 
 **Case 017: Investigation Simulation.** A story-driven VR detective experience for Meta Quest, built in Unity. The player examines evidence at a crime scene, questions AI-driven suspects by voice, and answers a phone call by saying the name of the person they suspect.
 
@@ -20,7 +20,7 @@
 
 ## Overview
 
-Beyond was our VR final project at Tuwaiq Academy, built by a five-person team. The story opens on a funeral ("3 Days Earlier — The Funeral"), moves through a murder cutscene, and then puts the player in the investigator's role: interrogate two suspects (Maya and a loan shark, Carlos), then search the crime scene, handle evidence, and decide who did it.
+Beyond was our VR final project at Tuwaiq Academy, built by a five-person team. The story opens on a funeral ("3 Days Earlier - The Funeral"), moves through a murder cutscene, and then puts the player in the investigator's role: interrogate two suspects (Maya and a loan shark, Carlos), then search the crime scene, handle evidence, and decide who did it.
 
 ## Experience Flow
 
@@ -87,7 +87,7 @@ HOW_TO_RUN.md        requirements, setup, controls
 
 <div dir="rtl">
 
-## Beyond — تجربة واقع افتراضي
+## Beyond - تجربة واقع افتراضي
 
 **القضية 017: محاكاة تحقيق**. تجربة تحقيق جنائي قصصية بالواقع الافتراضي لنظارة Meta Quest، مبنية على Unity. يفحص اللاعب الأدلة في مسرح الجريمة، ويستجوب مشتبهين مدعومين بالذكاء الاصطناعي بصوته، ثم يجيب على مكالمة هاتفية بنطق اسم من يعتقد أنه الجاني.
 

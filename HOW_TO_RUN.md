@@ -1,4 +1,4 @@
-# How to Run — Beyond: VR Experience
+# How to Run - Beyond: VR Experience
 
 > **Important:** this repository is a portfolio showcase. It does **not** contain the full Unity project or a playable build. The full project (about 7.5 GB, including licensed third-party assets) is kept in the team's private repository. The steps below describe how that project is set up and run, based on its settings.
 
@@ -55,7 +55,7 @@ You can also test in the Editor with the XR Interaction Toolkit **Device Simulat
 
 | Action | Quest controller | Keyboard (Editor) |
 |---|---|---|
-| Grab / pick up evidence | Grip (XR Interaction Toolkit default) | — |
+| Grab / pick up evidence | Grip (XR Interaction Toolkit default) | - |
 | Confirm a case file / start interrogation | Trigger (either hand) | `I` |
 | Answer the phone (push-to-talk) | **B** (right secondary button) | `B` |
 | Talk to the Loan Shark (recorder) | **A** (hold) | `R` (hold) |
