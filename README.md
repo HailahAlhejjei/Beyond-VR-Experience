@@ -60,12 +60,10 @@ The scripts I wrote are in [`scripts/`](scripts/).
 
 | | |
 |---|---|
-| ![Title card](media/ui/title-card-the-funeral.png) | ![Case files](media/screenshots/interrogation-room-case-files.png) |
-| Opening title card | Interrogation room: inspect the case files |
-| ![Phone ringing](media/screenshots/phone-ringing.jpg) | ![Evidence table](media/screenshots/vr-controllers-evidence-table.png) |
-| Timer hits 0:00 and the phone rings | VR controllers at the evidence table |
-| ![Waiting room](media/screenshots/waiting-room-npc.png) | |
-| Waiting room NPC | |
+| ![Title card](media/ui/title-card-the-funeral.png) | ![Phone ringing](media/screenshots/phone-ringing.jpg) |
+| Opening title card | Timer hits 0:00 and the phone rings |
+| ![Waiting room](media/screenshots/waiting-room-npc.png) | ![Interrogation room](media/screenshots/interrogation-room-lighting.png) |
+| Waiting room NPC | Interrogation room |
 
 ## Team
 
